@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar variabel dan tipe data</title>
+</head>
+
+<body>
+    <p>Variabel dan tipe data</p>
+    <script>
+        var name = "Belajar Pemrograman Javascript";
+        var siteName = "D3TI Sekolah Vokasi UNS";
+        var url = "https://d3ti.vokasi.uns.ac.id";
+        var visitorCount = 1221;
+        var isActive = true;
+        // menampilkan variabel ke jendela dialog (alert)
+        //alert("Selamat datang di " + name);
+        // menampilkan variabel ke dalam HTML
+        document.write("Nama Situs: " + siteName + "<br>");
+        document.write("Jumlah Pengunjung: " + visitorCount + "<br>");
+        document.write("Status Aktif: " + isActive + "<br>");
+        document.write("Alamat URL: " + url + "<br>");
+        console.log(typeof name);
+        console.log(typeof visitorCount);
+        console.log(typeof isActive);
+        delete name;
+        document.write("Name: " + name + "<br>");
+    </script>
+</body>
+
+</html>
