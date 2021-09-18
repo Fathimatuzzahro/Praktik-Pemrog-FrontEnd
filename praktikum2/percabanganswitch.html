@@ -1,0 +1,38 @@
+<!-- percabangan switch -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan Switch</title>
+</head>
+
+<body>
+    <h2>Percabangan Switch</h2>
+    <script>
+        var jawab = prompt("Mau Kemana? (1/2/3)", "");
+        var tujuan = "Solo";
+        var biaya = 0;
+        switch (jawab) {
+            case "1":
+                tujuan = "Bandung";
+                biaya = 100000;
+                break;
+            case "2":
+                tujuan = "Jakarta";
+                biaya = 150000;
+                break;
+            case "3":
+                tujuan = "Semarang";
+                biaya = 30000;
+                break;
+            default:
+                document.write("<h2>Anda Tidak Memilih</p>");
+        }
+        document.write("<h2>Anda Menuju " + tujuan + "Biaya :" + biaya + "</h2>");
+    </script>
+</body>
+
+</html>
